@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+    
+    left: -100vw;
+    transition: .40s;
+}
+.menu-lateral--ativo{
+    left: 0;
+    transition: .40s;
+}
+.menu-lateral__titulo{
+    background: linear-gradient(180deg, var(--amarelo) 0%, var(--laranja) 100%);
+    font-family: var(--roboto);
+    font-size: 30px;
+    color: var(--branco);
+    text-align: center;
+    padding: 16px;
+}
+.menu-lateral__logo{
+    align-self: center;
+    width: 120px;
+    padding: 16px;
+}
+.menu-lateral__link{
+    font-family: var(--roboto);
+    height: 50px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.menu-lateral__link--ativo{
+    padding-left: 42px;
+    border-left: 8px solid var(--laranja);
+    
+}
+.menu-lateral__link::before{
+    content: "\e90d";
+    width: 24px;    
+    height: 24px;
+    font-size: 24px;
+    position: absolute;
+    left: 24px;
+    font-family: "icones",sans-serif;
+}

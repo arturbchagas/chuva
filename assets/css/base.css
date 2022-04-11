@@ -1,0 +1,24 @@
+:root {
+    --amarelo:#FFB354;
+    --laranja:#EE7A3A;
+    --laranjaTexto:#ED7839;
+    --itens:#725C5C;
+    --topico:#4E4E4E;
+    --textoDiscussoes:#595959;
+    --assuntosNome:#5C5C5C;
+    --assuntosTexto:#4D4D4D;
+    --branco:#FFFFFF;
+    --cinzaEscuro:#333333;
+    --backgroundCabecalho:#FDF1EB;
+
+
+
+    --roboto:"Roboto", sans-serif;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--branco);
+    
+}
+
