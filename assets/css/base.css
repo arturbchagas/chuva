@@ -22,3 +22,23 @@ body{
     
 }
 
+.titulo-topico{
+    font-family: var(--roboto);
+    font-weight: 500;
+    color: var(--topico);
+    font-size: 1.25rem;
+    padding: .2rem;
+    border: 1px solid #ECECEC;
+    background-color: var(--backgroundCabecalho);
+    margin:0 .5rem ;
+}
+.corpo-topico{
+    margin: 0 .5rem .5rem .5rem;
+    border: 1px solid #ECECEC;
+    padding: .5rem;
+}
+.corpo-topico p{
+    font-size: .75rem;
+    font-weight: 400;
+    color:var(--assuntosNome);
+}
