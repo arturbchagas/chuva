@@ -1,7 +1,5 @@
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
-}
+
+
 .menu-lateral{
     display: flex;
     flex-direction: column;
@@ -9,7 +7,7 @@
     width: 75vw;
     height: 100vh;
     position: absolute;
-    
+    z-index: 1;
     left: -100vw;
     transition: .40s;
 }
@@ -43,12 +41,12 @@
     border-left: 8px solid var(--laranja);
     
 }
-.menu-lateral__link::before{
-    content: "\e90d";
+.side-bar{
+    color: var(--cinzaEscuro);
     width: 24px;    
     height: 24px;
     font-size: 24px;
     position: absolute;
     left: 24px;
-    font-family: "icones",sans-serif;
+    
 }

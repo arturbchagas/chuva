@@ -1,0 +1,150 @@
+
+.trabalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.trabalho__titulo{
+    color: var(--laranjaTexto);
+    font-family:  var(--roboto);
+    font-size:1.25rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    
+    text-align: center;
+    
+}
+
+
+.trabalho__video{
+    width: 100%;
+    height: 100%;
+    margin-bottom: .5rem;
+}
+
+.trabalho__nome{
+    font-family: var(--roboto);
+    font-weight: 900;
+    position: absolute;
+    bottom: 56%;
+    left: 16%;
+    color: var(--branco);
+    font-size: .6rem;
+}
+.trabalho__imagem{
+    border:1px solid #ED7839;
+    border-radius: 100%;
+    width: 2rem;
+    position: absolute;
+    bottom:53%;
+    left:4% ;
+  
+}
+
+.trabalho__faculdade{
+    position: absolute;
+    left: 16%;
+    bottom: 54%;
+    color: var(--branco);
+    font-size: .5rem;
+    font-family: var(--roboto);
+    font-weight: 900;
+    
+}
+.trabalho__detalhes{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+}
+.trabalho__detalhes___citacao{
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: .88rem;
+    color: var(--laranjaTexto);
+    margin-bottom:.5rem;
+    
+}
+.trabalho__detalhes___titulo{
+    font-family: var(--roboto);
+    font-weight: 500;
+    color: var(--topico);
+    font-size: 1.25rem;
+    padding: .2rem;
+    border: 1px solid #ECECEC;
+    background-color: var(--backgroundCabecalho);
+    margin:0 .5rem ;
+    
+}
+
+.trabalho__detalhes___texto{
+    margin: .6rem 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0 .5rem .5rem .5rem;
+    border: 1px solid #ECECEC;
+
+    
+}
+.trabalho__detalhes___texto li{
+    list-style-type: none;
+    margin: .2rem;
+}
+.detalhes__principal {
+    font-size: .75rem;
+    font-weight: 400;
+    color:var(--assuntosNome);
+}
+.negrito{
+    
+    font-weight: bolder;
+    
+}
+.detalhes__universidade{
+    font-size: .6rem;
+    font-weight: 400;
+    color: #d3d3d3;
+}
+
+
+.trabalhos__butoes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.trabalho__boteoes___download span{
+    font-size: 1rem;
+}
+.trabalho__boteoes___download{
+    color: var(--branco);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+    background-color: var(--laranjaTexto);
+    border: none;
+    border-radius: 4px;
+}
+.trabalho__boteoes___favoritar{
+    background-color: var(--laranjaTexto);
+    border: none;
+    border-radius: 4px;
+    color: var(--branco);
+}
+.trabalho__boteoes___favoritar span{
+    font-size: 1rem;
+}
+.trabalho__boteoes___doi{
+    background-color: var(--laranjaTexto);
+    border: none;
+    border-radius: 4px;
+}
+.trabalho__boteoes___doi img{
+    width: 1rem;
+}

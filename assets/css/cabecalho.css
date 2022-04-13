@@ -1,7 +1,4 @@
-@font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
-}
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
@@ -14,10 +11,9 @@
     border: none;
     display: flex;
 }
-.cabecalho__menu i::before {
-    content: "\e904";
-    font-family: "icones",sans-serif;
-    font-size: 24px; 
+.menu{
+    
+    font-size: 23px; 
     
 }
 .cabecalho__apresentacao{
@@ -26,7 +22,8 @@
     align-items: center;
 }
 .cabecalho__apresentacao___logo{
-    width: 90px;
+    width: 65px;
+    border-radius: 42px 42px 10px 10px;
 }
 .cabecalho__apresentacao___subtitulo{
     font-family: var(--roboto);
@@ -48,10 +45,21 @@
 .cabecalho__usuario{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
 }
 .cabecalho__usuario___imagemUser{
     width: 50px;
     border-radius: 100px;
+    
+}
+.cabecalho__linguagem{
+    background-color: var(--backgroundCabecalho);
+    border: 1px solid #CCCCCC;
+}
+.language{
+    font-size: 15px;
+    
 }
 
 

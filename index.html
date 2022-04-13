@@ -5,43 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link href="/assets/css/reset.css" rel="stylesheet"/>
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&family=Open+Sans:wght@300;
     400;700&family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="/assets/css/base.css" rel="stylesheet"/>
     <link href="/assets/css/cabecalho.css" rel="stylesheet"/>
     <link href="/assets/css/menu_lateral.css" rel="stylesheet"/>
-
+    <link href="/assets/css/trabalho.css" rel="stylesheet"/>
 
 </head>
 <body>
     <header class="cabecalho">
-        <button class="cabecalho__menu" aria-label="menu"><i></i></button>
-        <section class="cabecalho__apresentacao">
+        <button class="cabecalho__menu" aria-label="menu"><span class="material-icons menu">menu</span></button>
+        <div class="cabecalho__apresentacao">
             <img src="/assets/img/logo.png" class="cabecalho__apresentacao___logo">
             <h2 class="cabecalho__apresentacao___subtitulo">Anais do Simpósio Latino Americano de Ciências de Alimentos </h2>
-            <h1 class="cabecalho__apresentacao___titulo">Anais do 13º Simpósio Latino Americano <br/>de Ciência de Alimentos </h1>
+            <h1 class="cabecalho__apresentacao___titulo">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </h1>
             <p class="cabecalho__apresentacao___serial">ISSN: 1234-5678</p>
-        </section>
-        <section class="cabecalho__usuario">
+        </div>
+        <div class="cabecalho__usuario">
             <img src="/assets/img/usuario.png" alt="logo" class="cabecalho__usuario___imagemUser">
-            <button class="cabecalho__linguagem" aria-label="linguagem">PT, BR</button>
-        </section>    
+            <button class="cabecalho__linguagem" aria-label="linguagem"><span class="material-icons language">language </span> PT, BR</button>
+        </div>
     </header>
     <nav class="menu-lateral">
         <h1 class="menu-lateral__titulo">Slaca 2019</h1>
         <img src="/assets/img/logo.png" alt="logo" class="menu-lateral__logo">
-        <a href="" class="menu-lateral__link ">Apresentação</a>
-        <a href="" class="menu-lateral__link ">Comitê</a>
-        <a href="" class="menu-lateral__link ">Autores</a>
-        <a href="" class="menu-lateral__link ">Eixo Tematico</a>
-        <a href="" class="menu-lateral__link  menu-lateral__link--ativo">Trabalhos</a>
-        <a href="" class="menu-lateral__link ">Contato</a>
+        <a href="" class="menu-lateral__link "><sppan class="material-icons side-bar">noise_control_off</sppan>Apresentação</a>
+        <a href="" class="menu-lateral__link "><sppan class="material-icons side-bar">noise_control_off</sppan>Comitê</a>
+        <a href="" class="menu-lateral__link "><sppan class="material-icons side-bar">noise_control_off</sppan>Autores</a>
+        <a href="" class="menu-lateral__link "><sppan class="material-icons side-bar">noise_control_off</sppan>Eixo Tematico</a>
+        <a href="" class="menu-lateral__link  menu-lateral__link--ativo"><sppan class="material-icons side-bar">noise_control_off</sppan>Trabalhos</a>
+        <a href="" class="menu-lateral__link "><sppan class="material-icons side-bar">noise_control_off</sppan>Contato</a>
     </nav>
-    <main>
-        
-    </main>
-    
+    <main class="principal">
+        <section class="trabalho">
+            <h3 class="trabalho__titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP </h3>
+            <video src="/assets/img/formacao-java.mp4" class="trabalho__video" controls></video>
+            <img src="/assets/img/image.png" class="trabalho__imagem">
+            <p class="trabalho__nome">Beatriz Christiane Melo</p>
+            <p class="trabalho__faculdade">FCA / Universidade Estadual de Campinas</p>
+            <div class="trabalho__detahes">
+                <h1 class="trabalho__detalhes___citacao">COMO CITAR ESSE TRABALHO?</h1>
+                <h2 class="trabalho__detalhes___titulo">Detalhes</h2>
+                <div class="trabalho__detalhes___texto detalhes">
+                    <li><p class="detalhes__principal">Tipo de Apresentação:<span class="negrito">Pôster</span></p></li>
+                    <li><p class="detalhes__principal">Eixo temático: <span class="negrito">Alimentação e saúde (AS)</span> </p></li>
+                    <li><p class="detalhes__principal">Palavras-chaves:<span class="negrito">Alimentos funcionais, alimentação escolar</span>.</p></li>
+                    <li><p class="detalhes__principal">
+                        <span class="negrito">Autores:</span>
+                        Galileo Galilei¹
+                        Berta Lange de Morretes²
+                        Isaac Newton³
+                        Cesar Lattes¹
+                        Stephen Hawking⁴
+                        </p>
+                    </li>
+                        
+                    <li><p class="detalhes__universidade">
+                        ¹Universidade Estadual de Campinas
+                        ²Universidade de São Paulo
+                        ³Instituto Nacional de Pesquisas Espaciais
+                        ⁴Universidade Federal do Rio de Janeiro
+                        </p> 
+                    </li>
+                </div>
+            </div>          
+            <div class="trabalho__butoes">
+                <button class="trabalho__boteoes___download butao"><span class="material-icons download">download</span> Download</button>
+                <button class="trabalho__boteoes___favoritar butao"><span class="material-icons favoritar">star</span></button>
+                <button class="trabalho__boteoes___doi butao"><img src="/assets/img/doi (1).png"></button>
+            </div>
+        </section>   
+    </main>    
+      
 </body>
 <script src="/index.js"></script>
 </html>
