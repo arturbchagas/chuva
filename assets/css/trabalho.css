@@ -58,8 +58,9 @@
     
 }
 .trabalho__detalhes{
-    display: grid;
-    grid-template-rows:1fr 1fr 1fr;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .trabalho__detalhes___citacao{
     font-family: var(--roboto);
@@ -69,36 +70,12 @@
     margin-bottom:.5rem;
     
 }
-.trabalho__detalhes___titulo{
-    font-family: var(--roboto);
-    font-weight: 500;
-    color: var(--topico);
-    font-size: 1.25rem;
-    padding: .2rem;
-    border: 1px solid #ECECEC;
-    background-color: var(--backgroundCabecalho);
-    margin:0 .5rem ;
-    
-}
 
-.trabalho__detalhes___texto{
-    margin: .6rem 0;
-    display: flex;
-    flex-direction: column;
-    margin: 0 .5rem .5rem .5rem;
-    border: 1px solid #ECECEC;
-
-    
-}
 .trabalho__detalhes___texto li{
     list-style-type: none;
-    margin: .2rem;
+    margin: .6rem;
 }
-.detalhes__principal {
-    font-size: .75rem;
-    font-weight: 400;
-    color:var(--assuntosNome);
-}
+
 .negrito{
     
     font-weight: bolder;

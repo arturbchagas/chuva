@@ -1,0 +1,24 @@
+.resumo{
+    display: flex;
+    flex-direction: column;
+}
+.resumo__texto-ativo{
+    margin-bottom: 0;
+    border-bottom:0 ;
+    padding-bottom: 0;
+}
+.resumo__texto-oculto{
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+}
+.botao-resumo{
+    color: var(--laranjaTexto);
+    border: none;
+    font-weight: 400;
+    background: none;
+}
+
+.desativar{
+    display: none;
+}
