@@ -10,7 +10,9 @@
     z-index: 1;
     left: -100vw;
     transition: .40s;
+    border-right: 1px solid var(--backgroundCabecalho);
 }
+
 .menu-lateral--ativo{
     left: 0;
     transition: .40s;
@@ -18,35 +20,48 @@
 .menu-lateral__titulo{
     background: linear-gradient(180deg, var(--amarelo) 0%, var(--laranja) 100%);
     font-family: var(--roboto);
-    font-size: 30px;
+    font-weight: 500;
+    font-size: 1.875rem;
     color: var(--branco);
     text-align: center;
-    padding: 16px;
+    padding: 1rem;
 }
 .menu-lateral__logo{
     align-self: center;
-    width: 120px;
-    padding: 16px;
+    width: 7.5rem;
+    padding: 1rem;
 }
 .menu-lateral__link{
     font-family: var(--roboto);
-    height: 50px;
-    padding-left: 50px;
+    height: 3.125rem;
+    padding-left: 3.125rem;
     display: flex;
     align-items: center;
     
 }
 .menu-lateral__link--ativo{
-    padding-left: 42px;
-    border-left: 8px solid var(--laranja);
+    padding-left: 2.625rem;
+    border-left: 0.5rem solid var(--laranja);
     
 }
 .side-bar{
     color: var(--cinzaEscuro);
-    width: 24px;    
-    height: 24px;
-    font-size: 24px;
+    width: 1.5rem;    
+    height: 1.5rem;
+    font-size: 1.5rem;
     position: absolute;
-    left: 24px;
+    left: 1.5rem;
     
+}
+@media screen and (min-width:1024px){
+    .menu-lateral{
+        position: static;
+        width: 12.8rem;
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+    .side-bar{
+        display: none;
+        position: absolute;
+    }
 }
