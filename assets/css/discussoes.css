@@ -1,0 +1,104 @@
+.discussoes {
+    padding: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.discussoes__titulo {
+    padding: 0;
+    margin:0
+}
+.discussoes__compartilhe{
+    margin-bottom: 1rem;
+    padding: 0 .5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ECECEC;
+}
+.discussoes__compartilhe___subtitulo{
+    color: var(--laranjaTexto);
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin:0.5rem 0 1rem 0;
+    text-align: center;
+}
+.discussoes__compartilhe___texto{
+    font-size: .875rem;
+    font-weight: 400;
+    color:var(--textoDiscussoes);
+}
+
+.discussoes__compartilhe___icones{
+    margin-bottom: 1rem;
+}
+
+.icone-discussoes{
+    margin: 0 1.25rem 0 1.25rem;
+}
+.discussoes__compartilhe___texto{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.discussoe__perguntas{
+    padding: 0 .5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.discussoes__perguntas___subtitulo{
+    font-family: var(--roboto);
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--laranjaTexto);
+    margin:0.5rem 0 .1rem 0;
+}
+.discussoes__perguntas___nome{
+    color: var(--assuntosNome);
+    font-size: .75rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.discussoes__perguntas___texto{
+    font-size: .875rem;
+    font-weight: 400;
+    color:var(--assuntosTexto);
+}
+.discussoes__perguntas___like-resposta{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+.perguntas-icones-info{
+    border: none;
+    background: none;
+    padding: 0;
+    text-align: start;
+    margin: .5rem 0 .5rem 0;
+}
+.perguntas-icones-favorito{
+    background: var(--laranjaTexto);
+    border: none;
+    border-radius: .1rem;
+    margin: .5rem;
+}
+
+.info{
+    font-size: 1rem;
+    color: var(--laranjaTexto);
+}
+.favorito{
+    font-size: .875rem;
+    color: var(--branco);
+    text-align: center;
+    padding: .1rem;
+    
+}
+.like-resposta{
+    font-size: .75rem;
+    color: #757575;
+    margin: .5rem .25rem;
+}

@@ -12,6 +12,11 @@
     border-top: 0;
     padding-top: 0;
 }
+.resumo__texto{
+    font-size: .75rem;
+    font-weight: 400;
+    color:var(--assuntosNome);
+}
 .botao-resumo{
     color: var(--laranjaTexto);
     border: none;

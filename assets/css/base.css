@@ -37,8 +37,12 @@ body{
     border: 1px solid #ECECEC;
     padding: .5rem;
 }
-.corpo-topico p{
-    font-size: .75rem;
-    font-weight: 400;
-    color:var(--assuntosNome);
+.footer{
+    height: 3.5rem;
+    width: 100vw;
+    background-image: url("/assets/img/imagem\ -\ footer.png");
+    border-top: 1px solid #ECECEC;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
 }

@@ -6,8 +6,8 @@
     position: relative;
     text-align: center;
 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .trabalho__titulo{
@@ -75,6 +75,11 @@
     list-style-type: none;
     margin: .6rem;
 }
+.detalhes-texto{
+    font-size: .75rem;
+    font-weight: 400;
+    color:var(--assuntosNome);
+}
 
 .negrito{
     
@@ -124,4 +129,9 @@
 }
 .trabalho__boteoes___doi img{
     width: 1rem;
+}
+
+
+.butao{
+    margin-bottom: .5rem;
 }
