@@ -274,6 +274,10 @@
     .detalhes-texto{
         font-size: .875rem;
     }
+     .detalhes__universidade{
+        text-align: start;
+        font-size: 0.75rem;
+    } 
 }
 @media screen and (min-width:1440px){
     .trabalho__titulo___video{
