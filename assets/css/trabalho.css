@@ -249,7 +249,7 @@
     }
     .detalhes-texto{
         text-align: start;
-        font-size: .65rem;
+        font-size: .85rem;
     }
     .autores{
         display: flex;
@@ -266,6 +266,7 @@
     }
     .detalhes__universidade{
         text-align: start;
+        font-size: 0.65rem;
     } 
 }
 @media screen and (min-width:1080px){
